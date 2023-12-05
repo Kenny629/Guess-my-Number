@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --white: #EEEEEE;
+    --black: #222222;
+  }
+  body{
+    background-color: var(--black);
+    font-family: 'Press start 2P';
+  }
+  .head1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .again{
+    color: var(--black);
+    background-color: var(--white);
+    font-family: inherit;
+    padding: 22px 27px;
+    font-size: 20px;
+    border: none;
+  }
+  .head1 p{
+    color: var(--white);
+  }
+  .guess{
+    text-align: center;
+    color: var(--white);
+    margin: 30px;
+    font-size: 20px;
+  }
+  .question{
+    text-align: center;
+    display: flex;
+    /* padding: 20px; */
+    background-color: var(--white);
+    height: 5px;
+    margin: 100px 0;
+    position: relative;
+  }
+  .question span{
+    font-size: 4em;
+    color: var(--black);
+    background-color: var(--white);
+    padding: 30px 0;
+    width: 8rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 170px;
+  }
+  .num{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .num input{
+    height: 6rem;
+    width: 14rem;
+    background-color: var(--black);
+    border: var(--white) 4px solid;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 20px;
+    font-family: inherit;
+    font-size: 50px;
+  }
+  .num button{
+    display: block;
+    background-color: var(--white);
+    font-family: inherit;
+    font-size: 16px;
+    border: none;
+    padding: 20px;
+    color: var(--black);
+    width: 9em;
+  }
+  button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  .start{
+    color: var(--white);
+    font-size: 18px;
+  }
+  .start h2{
+    margin-bottom: 70px;
+    font-size: inherit;
+  }
+  .start p{
+    margin-bottom: 20px;
+  }
